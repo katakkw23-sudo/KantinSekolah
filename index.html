@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Kantin Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Menu Kantin Sekolah</h1>
+        <section class="menu-grid" aria-label="Daftar menu kantin">
+            <article class="menu-item" data-price="10000">
+                <img src="asset/nasiPutih.jpg" alt="Nasi uduk">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="12000">
+                <img src="asset/nasigoreng.jpg" alt="Nasi goreng">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="10000">
+                <img src="asset/bakso.webp" alt="Bakso">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="8000">
+                <img src="asset/mie.webp" alt="Mie goreng">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="7000">
+                <img src="asset/popmie.webp" alt="Pop Mie">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="10000">
+                <img src="asset/soto.webp" alt="Soto">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="8000">
+                <img src="asset/nuget.webp" alt="Nugget">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="8000">
+                <img src="asset/kentang.webp" alt="Kentang goreng">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="4000">
+                <img src="asset/esteh.webp" alt="Es teh">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+            <article class="menu-item" data-price="3000">
+                <img src="asset/air.webp" alt="Air mineral">
+                <button class="buy-button" type="button">Beli (<span class="buy-count">0</span>)</button>
+            </article>
+        </section>
+        <section class="payment">
+            <label for="paid-amount">Uang dibayar (Rp)</label>
+            <input id="paid-amount" type="number" min="0" step="500" placeholder="Masukkan jumlah uang">
+            <button id="pay-button" type="button">Bayar</button>
+        </section>
+    </main>
+</body>
+
+</html>
